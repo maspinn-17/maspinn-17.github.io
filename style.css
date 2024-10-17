@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 40px;
+  vertical-align: middle; 
+}
+
+#navbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+
+#navbar .nav-link {
+  margin-right: 10px;
+  color: rgb(12, 12, 12);
+  transition: transform 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+  color: rgb(65, 202, 23);
+  transform: scale(1.1);
+}
+
+#navbar .navbar-brand {
+  color: #060606;
+  font-size: 2rem;
+}
+
+.icons {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+section {
+  padding-top: 80px;
+}
+/*   
+#about {
+  background-color: rgb(134, 238, 96);
+}
+
+#contact {
+  background-color: rgb(134, 238, 96);
+} */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(65, 202, 23);    
+}
+
+.content {
+  margin-top: 80px ;
+  margin-bottom: 100px;
+}
+
+.content img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.blurb h4 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.blurb h1 {
+  font-size: 4rem;
+  margin: 15px 0;
+  white-space: nowrap; 
+}
+
+.blurb h6 {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+@media (max-width: 991px){
+  .navbar-brand {
+      display: none;
+  }
+}
+
+@media (max-width: 768px){ 
+  .blurb {
+      margin-top: 2rem;
+  }
+
+  .blurb h4 {
+      font-size: 1.5rem;
+      text-align: center;
+  }
+  
+  .blurb h1 {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+  
+  .blurb h6 {
+      font-size: 1.25rem;
+      text-align: center;
+  }
+  
+  .icons {
+      text-align: center;
+  }
+
+  #img-custom {
+      text-align: center;
+  }
+}
