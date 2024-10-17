@@ -45,17 +45,13 @@ body {
   font-size: 1.5rem;
 }
 
+.icons a {
+  margin: 0 2px;
+}
+
 section {
   padding-top: 80px;
 }
-/*   
-#about {
-  background-color: rgb(134, 238, 96);
-}
-
-#contact {
-  background-color: rgb(134, 238, 96);
-} */
 
 a {
   color: black;
@@ -78,6 +74,13 @@ a:hover {
   margin-top: 20px;
 }
 
+.content-a {
+  display: flex;
+  margin-top: 50px;
+  justify-content: right;
+  align-items: flex-end;
+}
+
 .blurb h4 {
   font-size: 2rem;
   margin: 10px 0;
@@ -93,6 +96,61 @@ a:hover {
   font-size: 1.5rem;
   margin: 5px 0;
 }
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-item strong {
+  width: 120px;
+  text-align: right;
+}
+
+.contact-item span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.contact-item i {
+  margin-right: 5px;
+}
+
+.icons-c {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.icons-c p {
+  margin: 0 2px;
+}
+
+/* Responsif untuk ukuran mobile */
+@media (max-width: 768px) {
+  .contact-info {
+      align-items: flex-start; /* Sejajarkan ke kiri pada tampilan mobile */
+  }
+
+  .contact-item {
+      flex-direction: column; /* Elemen vertikal di mobile */
+      align-items: flex-start; /* Konten rata kiri */
+  }
+
+  .contact-item strong {
+      text-align: left; /* Teks label rata kiri pada mobile */
+  }
+}
+
 
 @media (max-width: 991px){
   .navbar-brand {
