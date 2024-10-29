@@ -24,6 +24,7 @@
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#project">Project</a>
           <a class="nav-link" href="#contact">Contact</a>
+          <!-- <a class="nav-link" href="#contact">Contact</a> -->
         </div>
       </div>
     </div>
@@ -56,52 +57,66 @@
   <!-- about -->
   <section class="container-fluid px-0" id="about">
     <div class="text-center">
-      <h3>About</h3>
-      <hr>
+        <h3>About</h3>
+        <hr>
     </div>
     <div class="row align-items-center content-a">
-        <div class="col-md-6 text-left order-1 order-md-1">
+        <div class="col-md-6 order-1 order-md-1" id="about-img">
+            <img class="img-fluid" src="assets/img-gif.gif" alt="About Image"> 
+        </div>
+        
+        <div class="col-md-6 text-left order-2 order-md-2">
             <div class="row justify-content-center">
-               <div class="col-10 col-lg-8 blurb pt-3" id="about">
-                <p>hello I am ahmad gustiawan or often called maspinn, I am currently studying at SMKN 1 CIPEUNDEUY as a class XII student majoring in RPL (Software Engineering), I aspire to become a pro gamer but I am also interested in becoming a programmer.</p>
-               </div>
+                <div class="col-10 col-lg-8 blurb pt-3" id="about-text">
+                  <p>Halo, nama saya Ahmad Gustiawan, sekarang saya duduk di kelas XII di SMKN 1 Cipeundeuy, jurusan Rekayasa Perangkat Lunak (RPL). Sejak masuk jurusan ini, saya makin tertarik sama dunia IT, terutama soal pemrograman. Di sekolah, saya belajar banyak tentang coding, bikin aplikasi, dan segala hal yang berkaitan dengan software. Pokoknya, makin dalam belajar, makin seru aja rasanya!</p>
+
+                  <p>Selain belajar di kelas, saya juga suka ngulik sendiri, mencoba berbagai bahasa pemrograman, dan ngikutin tren teknologi yang lagi booming. Rasanya asik banget pas berhasil nyelesaiin kode yang tadinya bikin pusing. Dunia IT itu kaya tantangan yang nggak ada habisnya, dan saya suka banget sama itu.</p>
+
+                  <p>Saya juga sering baca-baca berita teknologi dari luar negeri biar nggak ketinggalan perkembangan terbaru. Harapannya, ke depannya saya bisa jadi developer yang handal dan bisa bikin aplikasi yang berguna buat banyak orang. Sekarang, saya fokus belajar dan terus ngembangin skill biar impian saya tercapai.</p>
+                </div>
             </div>  
         </div>
-        <!-- <div class="col-md-6 order-2 order-md-2" id="img-custom">
-            <img class="img-fluid" src="assets/img-gif.gif" alt="image "> 
-        </div> -->
     </div>
-  </section>
+</section>
+
   <!-- end about -->
   
   <!-- project -->
-  <section class="container-fluid px-0" id="project">
-    <div class="text-center">
-      <h3>Project</h3>
-      <hr>
-    </div>
-    <div class="row align-items-center content">
-      <div class="col-md-6 text-left order-1 order-md-1">
-        <div class="row justify-content-center">
-          <div class="col-10 col-lg-8 blurb pt-3" id="project">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iste impedit. Nesciunt laboriosam dolorem aspernatur sequi voluptas consequatur incidunt consectetur quasi vel distinctio architecto reiciendis aliquam molestiae, veritatis officia! Eaque?
-                Animi doloremque ratione placeat, totam autem, itaque nostrum dolores incidunt explicabo, nihil voluptate illo perspiciatis dicta sit laudantium ut nobis reprehenderit nisi voluptates deleniti et. Ullam provident assumenda quisquam illum!
-                Esse quisquam aspernatur temporibus impedit quis deserunt numquam voluptate asperiores ipsum enim sapiente possimus, itaque modi ratione, reiciendis veniam nihil, eum quia. Deserunt explicabo perferendis quas voluptas nesciunt dolor quaerat!</p>
-               </div>
-            </div>
-        </div>
-        <!-- <div class="col-md-6 order-2 order-md-2" id="img-custom">
-            <img class="img-fluid" src="assets/img-gif.gif" alt="image "> 
-        </div> -->
-    </div>
+    <section class="container-fluid px-0" id="project">
+      <div class="text-center">
+          <h3>Project</h3>
+          <hr>
+      </div>
+      <div class="row align-items-center content-p">
+          <div class="col-md-12 order-1 order-md-1">
+              <div class="row justify-content-center">
+                  <div class="col-10 col-lg-10 blurb pt-3" id="project">
+                      <div class="row" id="image-row">
+                          <div class="col-md-3 col-sm-6 img-container" id="img-custom">
+                              <img class="img-fluid" id="image-item" src="assets/img-gif.gif" alt="image 1">
+                          </div>
+                          <div class="col-md-3 col-sm-6 img-container" id="img-custom">
+                              <img class="img-fluid" id="image-item" src="assets/img-gif.gif" alt="image 2">
+                          </div>
+                          <div class="col-md-3 col-sm-6 img-container" id="img-custom">
+                              <img class="img-fluid" id="image-item" src="assets/img-gif.gif" alt="image 3">
+                          </div>
+                          <div class="col-md-3 col-sm-6 img-container" id="img-custom">
+                              <img class="img-fluid" id="image-item" src="assets/img-gif.gif" alt="image 4">
+                          </div>  
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </section>
   <!-- end project -->
   
   <!-- contact -->
   <section class="container-fluid px-0" id="contact">
     <div class="text-center">
-      <h3>Contact</h3>
-      <hr>
+        <h3>Contact</h3>
+        <hr>
     </div>
     <div class="row justify-content-center">
       <div class="col-10 col-lg-8 blurb pt-3" id="contact">
@@ -125,6 +140,9 @@
                 </div>
             </div>
         </div>
+        <div class="footer-content text-center ">
+          <p>&copy; 2024 MasPinn.</p>
+          <ul class="footer-links">
     </div>
 </section>
   <!-- end contact -->
